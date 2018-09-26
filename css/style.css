@@ -1802,3 +1802,20 @@ blockquote {
 .uipasta-credit a:hover {
     color: #333333;
 }
+
+hr {
+	display: block;
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+.sub-title {
+	margin-bottom: 3em;
+}
+.sub-title, .blog-post {
+	border-bottom: 1px solid #000;
+}
+.blog-post {
+	padding-bottom: 3em;
+}
