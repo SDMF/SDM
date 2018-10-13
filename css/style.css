@@ -320,10 +320,12 @@ button {
 
 /* About Me (Left Sidebar) */	
 
+/**
 .about-fixed {
     position: fixed;
     width: 20.8%;
 }
+*/
 
 .my-pic {
     width: 100%;
@@ -1818,4 +1820,23 @@ hr {
 }
 .blog-post {
 	padding-bottom: 3em;
+}
+.col-md-3 {
+	padding-right: 0;
+}
+.my-detail {
+	padding-right: 0.5em;
+}
+
+.my-detail span {
+	font-size: 10pt;
+}
+.my-detail b {
+	font-size: 11pt;
+}
+.col-md-9 {
+	padding-left: 0;
+}
+.icon-menu {
+	display: none;
 }
